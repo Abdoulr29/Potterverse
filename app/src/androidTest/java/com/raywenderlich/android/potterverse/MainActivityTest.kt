@@ -46,7 +46,6 @@ class MainActivityTest {
             }
         }
         activityRule.launchActivity(null)
-
         onView(withId(R.id.progress_bar))
                 .check(matches(withEffectiveVisibility(Visibility.GONE)))
         onView(withId(R.id.character_recyclerview))
