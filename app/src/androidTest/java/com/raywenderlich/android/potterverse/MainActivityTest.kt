@@ -52,7 +52,6 @@ class MainActivityTest {
                 .check(matches(withEffectiveVisibility(Visibility.VISIBLE)))
         onView(withId(R.id.textview))
                 .check(matches(withEffectiveVisibility(Visibility.GONE)))
-
     }
 
     @Test
